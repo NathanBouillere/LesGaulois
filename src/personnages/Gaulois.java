@@ -5,13 +5,17 @@ public class Gaulois {
 	private String nom;
 	private int force;
 	private int effetPotion;
+	private Village[] village = new Village[1];
+	
+	
 	
 	public Gaulois(String nom, int force) {
 		this.nom = nom;
 		this.force = force;
 		this.effetPotion = 1;
 	}
-
+	
+	
 	public String getNom() {
 		return nom;
 	}
@@ -49,9 +53,17 @@ public class Gaulois {
 	
 	public void boirePotion(int forcePotion) {
 		this.effetPotion = forcePotion;
-		
+	}
+	
+	public void setVillage(Village village) {
+		this.village = village;
 		
 	}
+	
+	public void sePresenter() {
+		
+	}
+	
 	
 }
 
