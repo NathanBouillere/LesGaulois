@@ -14,7 +14,7 @@ public class Druide {
 		this.force = force;
 		this.chaudron = new Chaudron();
 	}
-
+	
 	public String getNom() {
 		return nom;
 	}
