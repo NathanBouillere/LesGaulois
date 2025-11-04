@@ -34,7 +34,7 @@ public class Romain {
 	
 	public Equipement[] recevoirCoup(int forceCoup) {
 		Equipement[] equipementEjecte = null;
-
+		
 		forceCoup = calculResistanceEquipement(forceCoup);
 		
 		force -= forceCoup;
