@@ -1,7 +1,5 @@
 package personnages;
 
-import personnages.Gaulois;
-
 public class Druide {
 	private String nom;
 	private int force;
