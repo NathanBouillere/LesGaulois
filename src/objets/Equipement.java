@@ -1,7 +1,5 @@
 package objets;
 
-import java.security.PrivateKey;
-
 public enum Equipement {
 	CASQUE("casque"),
 	BOUCLIER("bouclier");

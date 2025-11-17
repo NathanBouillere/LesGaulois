@@ -27,7 +27,7 @@ public class Druide {
 	
 	public void booster(Gaulois gaulois) {
 		if(chaudron.resterPotion()) {
-			if(gaulois.getNom() == "Obélix") {
+			if("Obélix".equals(gaulois.getNom())) {
 				parler("Non, " + gaulois.getNom() + " Non!... Et tu le sais très bien!");
 			}else {
 				chaudron.prendreLoucher();
